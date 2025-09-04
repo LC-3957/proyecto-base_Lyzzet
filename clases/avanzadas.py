@@ -23,3 +23,10 @@ class Avanzadas:
     def elevarPotencia(self):
         self.resultado= "El numero "+str(self.num1)+" elevado al "+str(self)+" es = "+str(self.num1**self.num2)
         
+        
+    def raizCuadrada(self):
+        if self.num1 >= 0:
+            raiz = self.num1 ** 0.5
+            print(f"La raíz cuadrada de {self.num1} es = {raiz}")
+        else:
+            print("No se puede calcular la raíz cuadrada de un negativo")
